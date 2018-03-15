@@ -161,7 +161,8 @@ class triuneMain extends MY_Controller {
  
                     //echo $message; //send this in email
 					
-					$this->_sendMail($toEmail ="rdlagdaan@gmail.com", $subject = "token created", $message);
+					//$this->_sendMail($toEmail ="rdlagdaan@gmail.com", $subject = "token created", $message);
+					echo $message;
 
 				} else {
 					$this->session->set_flashdata('msg', "The personal information you've typed do not matched with your current records!");
@@ -346,9 +347,9 @@ class triuneMain extends MY_Controller {
 			$message .= '<strong>A password reset has been requested for this email account</strong><br>';
 			$message .= '<strong>Please click:</strong> ' . $link;             
 	
-			$this->_sendMail($toEmail ="rdlagdaan@gmail.com", $subject = "token created", $message);
+			//$this->_sendMail($toEmail ="rdlagdaan@gmail.com", $subject = "token created", $message);
 			
-			//echo $message; //send this through mail
+			echo $message; //send this through mail
 			//exit;
 			
 		}

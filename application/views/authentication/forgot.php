@@ -1,4 +1,5 @@
-<div class="col-lg-4 col-lg-offset-4">
+<div class="containerBg">
+<div class="col-lg-4 col-lg-offset-4 space">
     <h2>Forgot Password</h2>
     <p>Please enter your email address and we'll send you instructions on how to reset your password</p>
     <?php $fattr = array('class' => 'form-signin');
@@ -14,4 +15,5 @@
     </div>
     <?php echo form_submit(array('value'=>'Submit', 'class'=>'btn btn-lg btn-primary btn-block')); ?>
     <?php echo form_close(); ?>    
+</div>
 </div>

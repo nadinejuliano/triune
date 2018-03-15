@@ -21,17 +21,17 @@
 
 <div class="page-content">
    
-<div class="row">
+<!--<div class="row">-->
 
-    <div class="col-lg-6">
+    <!--<div class="col-lg-6">
 
-    </div>
-    <div class="col-lg-6">
+    </div>-->
+    <!--<div class="col-lg-6">-->
 					<!-- PAGE CONTENT BEGINS -->
 									<?php echo $contents;?>
 					<!-- PAGE CONTENT ENDS -->
-	</div><!-- /.col -->
-</div><!-- /.row -->
+	<!--</div> /.col -->
+<!--</div> /.row -->
 </div><!-- /.page-content -->
 </div>
 </div><!-- /.main-content -->
@@ -44,13 +44,15 @@
 </span>
 </div>
 </div>
-</div>
 
+
+<center>
 <a href="#" id="btn-scroll-up" class="btn-scroll-up btn btn-sm btn-inverse">
 <i class="ace-icon fa fa-angle-double-up icon-only bigger-110"></i>
 </a>
+</center>
 </div><!-- /.main-container -->
- 
+
 <!-- basic scripts -->
 <script type="text/javascript" src="<?php echo base_url();?>assets/scripts/jquery-3.3.1.min.js"></script>
 <script src="<?php echo base_url();?>assets/scripts/bootstrap.js"></script>

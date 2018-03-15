@@ -1,5 +1,5 @@
-
-<div class="col-lg-9 col-lg-offset-3">
+<div class="containerBg">
+<div class="col-lg-9 col-lg-offset-3 space">
     <h3>TRIUNE</h3>
     <h6>Please enter the required information below.</h6>     
 
@@ -8,9 +8,10 @@
 <?php 
    $attributes = array('method' => 'POST', 'role' => 'form', 'id' => 'createToken' );
    echo form_open_multipart('home/create', $attributes);
+
 ?>
 
-  
+
     <!--START ------------------------------ userName TextBox  -------------------------------------------START -->
     <div class="input-group col-md-10 input-group-md">
           <div class="input-group-prepend">
@@ -116,6 +117,7 @@
     }
   ?>
 
+</div>
 
 <script type="text/javascript" src="<?php echo base_url();?>assets/scripts/jquery-3.3.1.min.js"></script>
 

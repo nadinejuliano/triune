@@ -1,4 +1,5 @@
-<div class="col-lg-4 col-lg-offset-4">
+<div class="containerBg">
+<div class="col-lg-4 col-lg-offset-4 space">
     <h2>Almost There!</h2>
     <h5>Hello <span><?php echo $firstName; ?></span>. Your username is <span><?php echo $userName;?></span></h5>
     <small>Please enter a password to begin using the site.</small>
@@ -16,4 +17,5 @@
     <?php echo form_submit(array('value'=>'Complete', 'class'=>'btn btn-lg btn-primary btn-block')); ?>
     <?php echo form_close(); ?>
    
+</div>
 </div>

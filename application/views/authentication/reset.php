@@ -1,4 +1,5 @@
-<div class="col-lg-4 col-lg-offset-4">
+<div class="containerBg">
+<div class="col-lg-4 col-lg-offset-4 space">
     <h2>Reset your password</h2>
     <h5>Hello <span><?php echo $firstName; ?></span>, Please enter your password 2x below to reset</h5>     
 <?php 
@@ -16,4 +17,5 @@
     <?php echo form_submit(array('value'=>'Reset Password', 'class'=>'btn btn-lg btn-primary btn-block')); ?>
     <?php echo form_close(); ?>
    
+</div>
 </div>

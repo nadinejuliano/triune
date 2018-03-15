@@ -34,3 +34,35 @@ b.jQueryFormValidationMessage {
     font-size:.7em; 
     font-family: Arial, Helvetica, sans-serif;
 }
+
+
+.no-skin {
+    background: linear-gradient(rgba(255, 255, 255,0.8), rgba(255, 255, 255, 0.8)),
+                url('../images/registerBg.png') no-repeat fixed;
+    background-size: cover;
+}
+
+.containerBg {
+    margin: auto;
+    text-align: center;
+    
+}
+
+.space {
+    margin: auto;
+    padding: 5px;
+}
+
+
+.footer {
+    text-align: center;
+    position: relative;
+    bottom:0;
+    width:100%;
+    margin-top: 20px;
+}
+
+.page-content {
+    margin: auto;
+    max-width: 100%;
+}

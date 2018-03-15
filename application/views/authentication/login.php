@@ -1,4 +1,5 @@
-<div class="col-lg-4 col-lg-offset-4">
+<div class="containerBg">
+<div class="col-lg-4 col-lg-offset-4 space">
     <h2>Please login</h2>
     <?php $fattr = array('class' => 'form-signin');
          echo form_open(site_url().'home/login/', $fattr); ?>
@@ -24,4 +25,5 @@
     <?php echo form_close(); ?>
     <p>Don't have an account? Click to <a href="<?php echo site_url();?>home/create">Register</a></p>
     <p>Click <a href="<?php echo site_url();?>home/forgot">here</a> if you forgot your password.</p>
+</div>
 </div>
