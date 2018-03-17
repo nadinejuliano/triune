@@ -1,4 +1,4 @@
-<div class="containerBg">
+<div class="containerBg regLarge">
 <div class="col-lg-9 col-lg-offset-3 space">
     <h3>TRIUNE</h3>
     <h6>Please enter the required information below.</h6>     
